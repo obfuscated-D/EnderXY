@@ -20,6 +20,8 @@
 
         ~ 5 meters 20-24 awg wire (for extending some of the limit switch and fan wires)
 
+        JST connectors
+
 ## Fasteners
 
         24 M5x10 BHCS
@@ -33,5 +35,13 @@
         20 M5 washers
 
         30 M5 t-nuts
+
+# Misc
+        M3 heat set inserts
+        solder
+        heat shrink
+        zip ties
+        M5x.8 thread tap
+        5mm drill bit
         
 
