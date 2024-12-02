@@ -13,7 +13,7 @@ V-wheel version | Linear rail version
 200,185,185    | 200,200,185
 
 ## Design
-The overall idea was to turn a cheap ender 3 into a good platform for a high performance core xy machine, incorporatating as many stock components as possible, to reduce the BOM.
+The overall idea was to turn a cheap ender 3 into a good platform for an easily upgradeable, affordable, core xy machine, incorporatating as many stock components as possible to reduce the BOM.
 
 You can use all the bone stock components and a very small list of extra materials, and make a functional corexy that prints faster than a stock ender 3. This allows easy incremental upgrades such as changing to direct drive extruders, larger stepper motors etc.
 
