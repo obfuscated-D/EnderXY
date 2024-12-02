@@ -1,8 +1,9 @@
 # Ender XY
-The goal here is to make the Cheapest CoreXY conversion we can, for the ender 3. 
-
-## Notice
 This isn't a finished product / refined design. This was a *very* quick concept build (we're talking < 8hrs quick), and could absolutely use improvement. I hope it can serve as a decent starting point.
+
+# What to expect
+This is a pretty fun build, and in the end you do have a working, capable printer. However, 
+keep in mind that this is made almost entirely from a *very cheap printer*. With no upgrades to the motors,extruder, or a linear rail conversion, it's not going to be a rapid, production level machine like a Bambu or a Voron.  
 
 ## Specs
 Build volume (X,Y,Z):
@@ -12,7 +13,7 @@ V-wheel version | Linear rail version
 200,185,185    | 200,200,185
 
 ## Design
-The overall idea was to turn a cheap ender 3 into a good platform for a high performance core xy machine.
+The overall idea was to turn a cheap ender 3 into a good platform for a high performance core xy machine, incorporatating as many stock components as possible, to reduce the BOM.
 
 You can use all the bone stock components and a very small list of extra materials, and make a functional corexy that prints faster than a stock ender 3. This allows easy incremental upgrades such as changing to direct drive extruders, larger stepper motors etc.
 
