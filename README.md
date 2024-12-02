@@ -3,7 +3,7 @@ This isn't a finished product / refined design. This was a *very* quick concept 
 
 # What to expect
 This is a pretty fun build, and in the end you do have a working, capable printer. However, 
-keep in mind that this is made entirely from a *very cheap printer*. With no upgrades to the motors,extruder, or a linear rail conversion, it's not going to be a rapid, production level machine like a Bambu or a Voron.  
+keep in mind that this is made entirely from a *very cheap printer*. With no upgrades to the motors,extruder, or a linear rail conversion, it's not going to be a rapid, production level machine like a Bambu or a Voron. This is more so a project for the love of the build. 
 
 ## Specs
 Build volume (X,Y,Z):
