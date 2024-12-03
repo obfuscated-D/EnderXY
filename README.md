@@ -34,3 +34,11 @@ Bowden feed is not the greatest, and is a limiting factor as far as print qualit
 
 ## Firmware
 There is a ready to go firmware.bin in the firmware folder for the stock build on the creality 4.2.2 main board with A4988 stepper drives. You need to identify your board. If it is not the 4.2.2 with A4988 drivers, you will need to build a marlin image for your board. The configuration files needed for marlin 2.x are in the Marlin_files directory. See [Marlin](https://github.com/MarlinFirmware/Marlin) for more information on how to build your own firmware.
+
+
+# Sources and mentions
+The only reason this project was possible, and frankly, why I was able to create the first concept so quickly, is because of awesome open source projects! I don't want anyone to think that I did something amazing here, I simply adapted what I could from others, and made a few parts that weren't out there yet.
+
+Of course [Voron Design](https://vorondesign.com/). An amazing, very generous engineering team.
+
+This wonderful person [Greg191134](https://github.com/Greg191134) is the source of the 5015 fan mod for the afterburner: [Afterburner 5015 fan mod](https://github.com/Greg191134/Voron/tree/master/Afterburner%20Optimisation/5015%20fan%20mod). They also have an awesome project called the Vorender-4, where they upcycled an ender 4 with an adaptation of the Trident gantry. 
