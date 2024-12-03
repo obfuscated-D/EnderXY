@@ -12,6 +12,9 @@ V-wheel version | Linear rail version
 --------------- | ------------------
 200,185,185    | 200,200,185
 
+## Cost
+This will vary wildly with person and location. It's reasonable to assume you can get all the necessary parts for the basic stock conversion (not including the printer), for about $50usd. You'll probably use most of a 1kg spool of filament as well.
+
 ## Design
 The overall idea was to turn a cheap ender 3 into a good platform for an easily upgradeable, affordable, core xy machine, incorporatating as many stock components as possible to reduce the BOM.
 

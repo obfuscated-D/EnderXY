@@ -12,15 +12,15 @@
         
         2- 20 Tooth GT2 Idler Pulley, 5mm Bore, 10mm Width
 
-        approx 5 meters GT2 Timing belt
+        5 meters GT2 Timing belt
 
 ## Electronics
 
         1x 24V 5015 Blower fan (GDSTIME recommended, some cheap fans barely move any air)
 
-        ~ 5 meters 20-24 awg wire (for extending some of the limit switch and fan wires)
+        ~5 meters 2 conductor ~20~24 awg wire (for extending the part fan and some of the limit switch wires)
 
-        JST connectors
+        JST-XH connectors and pins
 
 ## Fasteners
 
@@ -38,6 +38,7 @@
 
 # Misc
         M3 heat set inserts
+        
         solder
         heat shrink
         zip ties
