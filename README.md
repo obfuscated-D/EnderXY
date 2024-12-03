@@ -42,3 +42,5 @@ The only reason this project was possible, and frankly, why I was able to create
 Of course [Voron Design](https://vorondesign.com/). An amazing, very generous engineering team.
 
 This wonderful person [Greg191134](https://github.com/Greg191134) is the source of the 5015 fan mod for the afterburner: [Afterburner 5015 fan mod](https://github.com/Greg191134/Voron/tree/master/Afterburner%20Optimisation/5015%20fan%20mod). They also have an awesome project called the Vorender-4, where they upcycled an ender 4 with an adaptation of the Trident gantry. 
+
+The mk8 extruder adaptation for the afterburner came from [mmmta](https://www.thingiverse.com/mmmta) on thingiverse.
