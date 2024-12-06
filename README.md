@@ -6,6 +6,7 @@ This branch is under active development and contains volatile, experimental chan
 ## TODO's and notes
     - I'm still working on the Z axis, it's not quite there yet
     - BOM needs completed, and to include different configurations
+    - V-wheel X gantry design for stock print head and for afterburner
     - Need to optmize for printing without support
     - There is no cable management or electronics mounting designed currently
     - Need to come up with an orgizational structure for different conversion types, (i.e. v-wheels vs linear rails, stock motors or upgraded etc.)
@@ -40,9 +41,10 @@ The gantry is essentially a modified Trident gantry, and there are two versions 
 The V wheel version does limit the Y axis to 185mm, with the linear rail version you can get the full 200. 
 
 ### The Tool Head
-I went with an Afterburner Bowden setup, The files in here allow you to use the stock ender3 hotend in the afterburner, and a 5015 blower fan.
+I went with an Afterburner Bowden setup, The files in here allow you to use the stock ender3 hotend in the afterburner, and a 5015 blower fan. If using the linear rail X version, any of the voron tool heads should fit.
 
-Bowden feed is not the greatest, and is a limiting factor as far as print quality and speed are concerned. Direct drive would be much much better. Again, you can always upgrade to a stealthburner in the future!
+### Filament Feed
+Bowden feed is not the greatest, and is a limiting factor as far as print quality and speed are concerned. The upside of running the Bowden is it greatly decreases the mass fo the gantry, if using the stock motors, this is important! Direct drive would be much better, but wouldn't be worth it without A/B motor upgrades. 
 
 ## Firmware
 There is a ready to go firmware.bin in the firmware folder for the stock build on the creality 4.2.2 main board with A4988 stepper drives. You need to identify your board. If it is not the 4.2.2 with A4988 drivers, you will need to build a marlin image for your board. The configuration files needed for marlin 2.x are in the Marlin_files directory. See [Marlin](https://github.com/MarlinFirmware/Marlin) for more information on how to build your own firmware.
