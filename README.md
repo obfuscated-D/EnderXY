@@ -87,6 +87,7 @@ This wonderful person [Greg191134](https://github.com/Greg191134) is the source 
 - The base is the stock ender 3 base
 - Y axis is using the v-wheel gantry
 - X axis has an mgn12 linear rail
+- X beam is the top extrusion from the ender 3, cut to length
 - Z axis vertical extrusion is the 2040 extrusion from the Y axis of the ender 3 (the one under the bed), and is bolted to where the original Z axis motor upright was
 - Z axis lead screw is the stock lead screw cut down to 300mm
 - Z axis v-wheels are the the motor side of the ender3 Z axis
