@@ -1,18 +1,26 @@
+
+## Please Read Everything Below Before Contributing, Commenting, or Opening Issues, Thank You!
+### This isn't a finished product / refined design. This was a *very* quick concept build (we're talking < 8hrs quick), and could absolutely use improvement. I hope it can serve as a decent starting point.
+
 # ⚠️ Development Branch Notice
 
 This branch is under active development and contains volatile, experimental changes. Components and designs are frequently updated and may not be synchronized with each other. Specifications, dimensions, firmware, and documentation should be considered unstable and subject to change. For verified, stable content, please refer to the main branch when it is published.
 
-
-## TODO's and notes
-    - I'm still working on the Z axis, it's not quite there yet
-    - BOM needs completed, and to include different configurations
-    - V-wheel X gantry design for stock print head and for afterburner
-    - Need to optmize for printing without support
-    - The wiring is a hot mess, there is no cable management or electronics mounting designed currently
-    - Need to come up with an orgizational structure for different conversion types, (i.e. v-wheels vs linear rails, stock motors or upgraded etc.)
-
 # Ender XY
-This isn't a finished product / refined design. This was a *very* quick concept build (we're talking < 8hrs quick), and could absolutely use improvement. I hope it can serve as a decent starting point.
+This is a project to convert a Creality Ender 3 into a CoreXY printer. The goal is to make a good printer from a cheap printer, using as many stock parts as possible, and to make it easily upgradeable.
+- [Before you Contribute, Please Read!](#before-you-contribute-please-read)
+- [Contributing](#contributing)
+- [Current Build](#current-state-of-the-build)
+- [TODO's and notes](#todos-and-notes)
+
+# Goals
+- Make a good printer from a cheap printer
+- Keep cost under $50usd for the most basic conversion
+- Use as many stock parts as possible
+- Make it easily upgradeable
+- Make it easily printable
+- Make it easily assembled
+- Make it easily sourced
 
 # What to expect
 This is a pretty fun build, and in the end you do have a working, capable printer. However, 
@@ -72,7 +80,6 @@ This wonderful person [Greg191134](https://github.com/Greg191134) is the source 
 
 # Current State of the Build
 
-<!-- image from /media folder -->
 ![Ender XY](media/current_build_log_imgs/enderxy.jpeg)
 
 ## Current Build 
@@ -97,3 +104,20 @@ This wonderful person [Greg191134](https://github.com/Greg191134) is the source 
 - The electronics are in the original ender3 enclosure
 - The power supply is sitting on the floor
 - The factory spool holder is mounted to the rear of the printer
+
+# Contributing
+I would love to see this project grow, and I would love to see what others can do with it. If you have any ideas, improvements, or requests, please feel free to open an issue, or, fork the project and make a pull request.
+
+# Before you Contribute, Please Read!
+### It's easy to just throw money at this, to add better parts and make it a better printer. That's not the point of this project, and it's what makes this project difficult. The point is to make a good printer from a cheap printer, using as many stock parts as possible.
+### If you have a suggestion, please consider the cost and the availability of the parts. If you have a design change, please consider the ease of printing and the ease of assembly.
+### If you have a request, please consider the goals of the project, and the limitations of the stock parts.
+
+## TODO's and notes
+    - Still working on the Z axis, it's not quite there yet
+    - BOM needs completed, and to include different configurations
+    - V-wheel X gantry design for stock print head and for afterburner
+    - Need to optmize for printing without support
+    - The wiring is a hot mess, there is no cable management or electronics mounting designed currently
+    - Need to come up with an orgizational structure for different conversion types, (i.e. v-wheels vs linear rails, stock motors or upgraded etc.)
+
