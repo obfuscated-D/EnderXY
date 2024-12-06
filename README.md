@@ -83,17 +83,23 @@ This wonderful person [Greg191134](https://github.com/Greg191134) is the source 
 ![Ender XY](media/current_build_log_imgs/enderxy.jpeg)
 
 ## Current Build 
-### V-wheel Y axis
 - The base is the stock ender 3 base
 - Y axis is using the v-wheel gantry
+- The wheels came from the bed and the Z axis
 - X axis has an mgn12 linear rail
 - X beam is the top extrusion from the ender 3, cut to length
+![Z axis](media/current_build_log_imgs/z_axis.jpeg)
 - Z axis vertical extrusion is the 2040 extrusion from the Y axis of the ender 3 (the one under the bed), and is bolted to where the original Z axis motor upright was
 - Z axis lead screw is the stock lead screw cut down to 300mm
 - Z axis v-wheels are the the motor side of the ender3 Z axis
 - Z axis motor mount is a Trident right front z motor mount
+![Bed](media/current_build_log_imgs/bed_mount.jpeg)
 - Bed rail is the X axis rail from the ender3
 - Bed is stock
+- The v-wheels were removed from the bed bracket, and the bracket is bolted directly to the extrusion. It worked out that the offset of the bed bracket holes centers the bed nicely.
+- I removed the bed springs, it was too wobbly. 
+- Used some 4mm nuts to clamp the screws to the bed, put the thumb wheels on top the bracket to allow adjustment. Once adjusted, I added 4mm nuts on the back of the plate to lock it in place. I used 4mm heat inserts, because that's what I had.
+- The screw with the bed wire bracket just has a 4mm nut as a spacer under it, and I used the thumb wheel to lock it to the bed bracket. This corner is not adjustable, the other three corners just get set to the same height as this one.
 - Currently, the bed has a scrap of extrusion off the left side as a "dog leg", using the x axis V-wheel bracket. The front uprights are not tied together across the front, the bed and the gantry are locked together by this "dog leg". Even though the frame wobbles, the bed and gantry wobble together, so there is no wobble in the print. This could still use a lot of improvement though.
 - The frame uprights in the front are the Z axis uprights from the ender3
 - The gantry rails (along the y axis) are not from the printer, they are in the BOM
