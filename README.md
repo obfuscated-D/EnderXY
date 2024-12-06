@@ -47,7 +47,17 @@ I went with an Afterburner Bowden setup, The files in here allow you to use the 
 Bowden feed is not the greatest, and is a limiting factor as far as print quality and speed are concerned. The upside of running the Bowden is it greatly decreases the mass fo the gantry, if using the stock motors, this is important! Direct drive would be much better, but wouldn't be worth it without A/B motor upgrades. 
 
 ## Firmware
-There is a ready to go firmware.bin in the firmware folder for the stock build on the creality 4.2.2 main board with A4988 stepper drives. You need to identify your board. If it is not the 4.2.2 with A4988 drivers, you will need to build a marlin image for your board. The configuration files needed for marlin 2.x are in the Marlin_files directory. See [Marlin](https://github.com/MarlinFirmware/Marlin) for more information on how to build your own firmware.
+There is a ready to go firmware.bin in the firmware folder for a build with the following configuration:
+- Creality 4.2.2 main board
+- A4988 stepper drives
+- Linear rail X
+- Afterburner bowden
+- Factory extruder
+- Factory hotend
+- V-wheel Y
+- V-wheel Z
+### If your build does not match this configuration THE FIRMWARE WILL NOT WORK FOR YOU!
+ You need to identify your board and stepper drivers, adjust the configuration files for your build, and build a marlin image. The configuration files needed for marlin 2.x bugfix are in the Marlin_files directory. See [Marlin](https://github.com/MarlinFirmware/Marlin) for more information on how to build your own firmware.
 
 
 # Sources and mentions
