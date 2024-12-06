@@ -4,9 +4,12 @@ This branch is under active development and contains volatile, experimental chan
 
 
 ## TODO's and notes
+    - I'm still working on the Z axis, it's not quite there yet
+    - BOM needs completed, and to include different configurations
     - Need to optmize for printing without support
     - There is no cable management or electronics mounting designed currently
-    
+    - Need to come up with an orgizational structure for different conversion types, (i.e. v-wheels vs linear rails, stock motors or upgraded etc.)
+
 # Ender XY
 This isn't a finished product / refined design. This was a *very* quick concept build (we're talking < 8hrs quick), and could absolutely use improvement. I hope it can serve as a decent starting point.
 
@@ -17,9 +20,9 @@ keep in mind that this is made entirely from a *very cheap printer*. With no upg
 ## Specs
 Build volume (X,Y,Z):
 
-V-wheel version | Linear rail version
---------------- | ------------------
-200,185,185    | 200,200,185
+V-wheel x and y | Linear rail x | Linear rail x and y
+--------------- | ----------------------|-----
+155,185,180    | 200,185,180            | 200,200,180
 
 ## Cost
 This will vary wildly with person and location. It's reasonable to assume you can get all the necessary parts for the basic stock conversion (not including the printer), for about $50usd. You'll probably use most of a 1kg spool of filament as well.
@@ -49,6 +52,8 @@ There is a ready to go firmware.bin in the firmware folder for the stock build o
 The only reason this project was possible, and frankly, why I was able to create the first concept so quickly, is because of awesome open source projects! I don't want anyone to think that I did something amazing here, I simply adapted what I could from others, and made a few parts that weren't out there yet.
 
 Of course [Voron Design](https://vorondesign.com/). An amazing, very generous engineering team.
+
+[Marlin](https://github.com/MarlinFirmware/Marlin), Making the maker world a better place.
 
 This wonderful person [Greg191134](https://github.com/Greg191134) is the source of the 5015 fan mod for the afterburner: [Afterburner 5015 fan mod](https://github.com/Greg191134/Voron/tree/master/Afterburner%20Optimisation/5015%20fan%20mod). They also have an awesome project called the Vorender-4, where they upcycled an ender 4 with an adaptation of the Trident gantry. 
 

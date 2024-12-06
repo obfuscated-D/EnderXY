@@ -1,3 +1,5 @@
+# ⚠️ This is not complete or correct, disregard until this warning message is gone
+
 # Components needed to build the Bender 3 (V wheel version)
 
         1x Ender-3 printer
