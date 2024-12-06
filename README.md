@@ -8,7 +8,7 @@ This branch is under active development and contains volatile, experimental chan
     - BOM needs completed, and to include different configurations
     - V-wheel X gantry design for stock print head and for afterburner
     - Need to optmize for printing without support
-    - There is no cable management or electronics mounting designed currently
+    - The wiring is a hot mess, there is no cable management or electronics mounting designed currently
     - Need to come up with an orgizational structure for different conversion types, (i.e. v-wheels vs linear rails, stock motors or upgraded etc.)
 
 # Ender XY
@@ -56,6 +56,7 @@ There is a ready to go firmware.bin in the firmware folder for a build with the 
 - Factory hotend
 - V-wheel Y
 - V-wheel Z
+
 ### If your build does not match this configuration THE FIRMWARE WILL NOT WORK FOR YOU!
  You need to identify your board and stepper drivers, adjust the configuration files for your build, and build a marlin image. The configuration files needed for marlin 2.x bugfix are in the Marlin_files directory. See [Marlin](https://github.com/MarlinFirmware/Marlin) for more information on how to build your own firmware.
 
@@ -69,3 +70,30 @@ Of course [Voron Design](https://vorondesign.com/). An amazing, very generous en
 
 This wonderful person [Greg191134](https://github.com/Greg191134) is the source of the 5015 fan mod for the afterburner: [Afterburner 5015 fan mod](https://github.com/Greg191134/Voron/tree/master/Afterburner%20Optimisation/5015%20fan%20mod). They also have an awesome project called the Vorender-4, where they upcycled an ender 4 with an adaptation of the Trident gantry. 
 
+# Current State of the Build
+
+<!-- image from /media folder -->
+![Ender XY](media/current_build_log_imgs/enderxy.jpeg)
+
+## Current Build 
+### V-wheel Y axis
+- The base is the stock ender 3 base
+- Y axis is using the v-wheel gantry
+- X axis has an mgn12 linear rail
+- Z axis vertical extrusion is the 2040 extrusion from the Y axis of the ender 3 (the one under the bed), and is bolted to where the original Z axis motor upright was
+- Z axis lead screw is the stock lead screw cut down to 300mm
+- Z axis v-wheels are the the motor side of the ender3 Z axis
+- Z axis motor mount is a Trident right front z motor mount
+- Bed rail is the X axis rail from the ender3
+- Bed is stock
+- Currently, the bed has a scrap of extrusion off the left side as a "dog leg", using the x axis V-wheel bracket. The front uprights are not tied together across the front, the bed and the gantry are locked together by this "dog leg". Even though the frame wobbles, the bed and gantry wobble together, so there is no wobble in the print. This could still use a lot of improvement though.
+- The frame uprights in the front are the Z axis uprights from the ender3
+- The gantry rails (along the y axis) are not from the printer, they are in the BOM
+- The front belt tensioners are the Voron Trident belt tensioners
+- The A/B drive parts have been modified, but retain the same geometry as the Voron parts, and the same assembly method.
+
+- There is no cable management, the wiring is a mess
+- The limit switches are haphazardly mounted
+- The electronics are in the original ender3 enclosure
+- The power supply is sitting on the floor
+- The factory spool holder is mounted to the rear of the printer
