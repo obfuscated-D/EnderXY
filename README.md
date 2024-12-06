@@ -2,6 +2,11 @@
 
 This branch is under active development and contains volatile, experimental changes. Components and designs are frequently updated and may not be synchronized with each other. Specifications, dimensions, firmware, and documentation should be considered unstable and subject to change. For verified, stable content, please refer to the main branch when it is published.
 
+
+## TODO's and notes
+    - Need to optmize for printing without support
+    - There is no cable management or electronics mounting designed currently
+    
 # Ender XY
 This isn't a finished product / refined design. This was a *very* quick concept build (we're talking < 8hrs quick), and could absolutely use improvement. I hope it can serve as a decent starting point.
 
