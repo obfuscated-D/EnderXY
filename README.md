@@ -54,6 +54,7 @@ I went with an Afterburner Bowden setup, The files in here allow you to use the 
 Bowden feed is not the greatest, and is a limiting factor as far as print quality and speed are concerned. The upside of running the Bowden is it greatly decreases the mass fo the gantry, if using the stock motors, this is important! Direct drive would be much better, but wouldn't be worth it without A/B motor upgrades. 
 
 ## Firmware
+## The firmware is not up to date!!!!!!!!!!!!!!!!!!
 There is a ready to go firmware.bin in the firmware folder for a build with the following configuration:
 - Creality 4.2.2 main board
 - A4988 stepper drives
