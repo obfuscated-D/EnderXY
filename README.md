@@ -77,12 +77,9 @@ I would love to see this project grow, and I would love to see what others can d
 ### If you have a request, please consider the goals of the project, and the limitations of the stock parts.
 
 ## TODO's and notes
-    - Still working on the Z axis, it's not quite there yet
     - BOM needs completed, and to include different configurations
-    - V-wheel X gantry design for stock print head and for afterburner
     - Need to optmize for printing without support
-    - The wiring is a hot mess, there is no cable management or electronics mounting designed currently
-    - Need to come up with an orgizational structure for different conversion types, (i.e. v-wheels vs linear rails, stock motors or upgraded etc.)
+
 
 # Sources and mentions
 The only reason this project was possible, and frankly, why I was able to create the first concept so quickly, is because of awesome open source projects! I don't want anyone to think that I did something amazing here, I simply adapted what I could from others, and made a few parts that weren't out there yet.
