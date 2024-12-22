@@ -1,0 +1,12 @@
+# Required Tools
+- Drill
+- 5mm (5x.8) tap and appropriate Drill
+- 6mm (6x1) tap in some cases and appropriate drill (some available 20mm extrusions have a hole too large for 5mm threads)
+- Drill
+- Drill bit set
+- Allen wrench set (metric)
+- Hacksaw / bandsaw / miter saw (something to cut the extrusions)
+- Wiring tools (wire stripper, jst crimpers, wire cutters,etc)
+- Soldering Iron
+- 3D printer
+- Metric ruler or calipers (up to 350mm)
