@@ -1,4 +1,8 @@
 
+
+<p align="center">
+<img alt="enderxy_logo" src="./media/readme_images/enderxy_logo.jpg"></img>
+</p>
 ## Please Read Everything Below Before Contributing, Commenting, or Opening Issues, Thank You!
 ### This isn't a finished product / refined design. This was a *very* quick concept build (we're talking < 8hrs quick), and could absolutely use improvement. I hope it can serve as a decent starting point.
 
