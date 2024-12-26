@@ -10,8 +10,6 @@
 
 This branch is under active development and contains volatile, experimental changes. Components and designs are frequently updated and may not be synchronized with each other. Specifications, dimensions, firmware, and documentation should be considered unstable and subject to change. For verified, stable content, please refer to the main branch when it is published.
 
-# The firmware is not up to date!!!!!!!!!!!!!!!!!!
-
 # Ender XY
 This is a project to convert a Creality Ender 3 into a CoreXY printer. The goal is to make a good, fast printer from a cheap, slow printer.
 - [Contributing](#contributing)
@@ -28,7 +26,10 @@ This is a project to convert a Creality Ender 3 into a CoreXY printer. The goal 
 
 # What to expect
 This is a pretty fun build, and in the end you have a good, capable printer. However, 
-keep in mind that this is made entirely from a *very cheap printer*. With no upgrades to the motors,extruder, or a linear rail conversion, you can expect to print at about the same quality as the stock Ender 3. The main advantage is the CoreXY kinematics, which allows for faster print speeds, and less ghosting. It only gets better from there, with the addition of linear rails, a better extruder, and a better hotend, you can expect to print at a much higher quality, and much, much faster than the stock Ender 3.
+keep in mind that this is made entirely from a *very cheap printer*. The main advantage is the CoreXY kinematics, which allows for faster print speeds, and less ghosting. It only gets better from there, with the addition of linear rails, a better extruder, and a better hotend, klipper, etc. you can expect to print at a much higher quality, and much, much faster than the stock Ender 3.
+
+## Print specs
+So far, on the bone stock conversion, I can reliably print at very good quality at 4k acceleration, and around 150mm/s with PETG, and 180-200mm/s with PLA. For superb quality, 3k acceleration at 120mm/s yields excellent results, way better than the stock printer.
 
 ## Specs
 Build volume (X,Y,Z):
@@ -52,18 +53,12 @@ I went with an Afterburner Bowden setup. The files in here allow you to use the 
 Bowden feed is not the greatest, and is a limiting factor as far as print quality and speed are concerned. The upside of running the Bowden is it greatly decreases the mass fo the gantry. If using the stock motors, this is important! Direct drive would be much better, but wouldn't be worth it without A/B motor upgrades. 
 
 ## Firmware
-## The firmware is not up to date, DO NOT USE IT!!!!!!!!!!!!!!!!!!
-There is a ready to go firmware.bin in the firmware folder for a build with the following configuration:
-- Creality 4.2.2 main board with the STM32F103 processor
-- A4988 stepper drives
-- Linear rail X
-- Afterburner bowden
-- Factory extruder
-- Factory hotend
-- V-wheel Y
-- V-wheel Z
 
-### If your build or board does not match this configuration THE FIRMWARE WILL NOT WORK FOR YOU!
+In the firmware directory, you will find two .bin files.One for the stm32 and one for the gd32f. These reflect the configurations found in the marlin configuration files directory. These will only work for:
+- Ender3 4.2.2 mainboard with A4988 drivers and stm32 processor
+- Ender3 4.2.2 mainboard with A4999 drivers and gd32f processor
+
+### If your board does not match, THE FIRMWARE WILL NOT WORK FOR YOU!
  You need to identify your board and stepper drivers, adjust the configuration files for your build, and build a marlin image. The configuration files needed for marlin 2.x bugfix are in the Marlin_files directory. See [Marlin](https://github.com/MarlinFirmware/Marlin) for more information on how to build your own firmware.
 
 
@@ -77,11 +72,9 @@ I would love to see this project grow, and I would love to see what others can d
 
 ## TODO's and notes
     - BOM needs completed, and to include different configurations
-    - Configuration files need to be updated
-    - Firmware needs to be updated
-    - Need to optmize part designs for printing without support
-    - Need to add designs for linear rail Z axis
-    - Need to add designs for three Z motors and leadscrews
+    - optmize part designs for printing without support
+    - Ndesigns for linear rail Z axis
+    - designs for three Z motors and leadscrews
 
 # Sources and mentions
 The only reason this project was possible, and frankly, why I was able to create the first concept so quickly, is because of awesome open source projects! I don't want anyone to think that I did something amazing here, I simply adapted what I could from others, and made a few parts that weren't out there yet.
