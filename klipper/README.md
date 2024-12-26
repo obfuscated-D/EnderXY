@@ -1,6 +1,6 @@
 # Klipper
 
-### The klipper.bin and printer.cfg in here are for the Ender3 4.2.2 mainboard, and have been tested with the stm32 and gd32f chipsets. 
+### The printer.cfg in has been tested with Ender3 4.2.2 mainboard, with the stm32 and gd32f chipsets. 
 
-### There is no guarantee that it will work for you, you may need to compile your own or modify the printer.cfg once up and running.
-
+### There is no guarantee that it will work for you! You may need to modify the printer.cfg once up and running.
+### See the [Mainsail docs](https://docs.mainsail.xyz/) for more info on setting up your printer.

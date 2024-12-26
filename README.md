@@ -3,8 +3,16 @@
 <p align="center">
 <img alt="enderxy_logo" src="./media/readme_images/enderxy_logo.jpg"></img>
 </p>
+
 ## Please Read Everything Below Before Contributing, Commenting, or Opening Issues, Thank You!
-### This isn't a finished product / refined design. This was a *very* quick concept build (we're talking < 8hrs quick), and could absolutely use improvement. I hope it can serve as a decent starting point.
+### This isn't a finished product / refined design. This was a *very* quick concept build and could absolutely use improvement. I hope it can serve as a decent starting point.
+
+# Disclaimer
+This project is not affiliated with Creality, Voron Design, Marlin, Mainsail, Klipper, or any other company or project. This is a personal project, and is not intended to be sold or distributed for profit. This project is provided as-is, and I am not responsible for any damage to your printer, or any other equipment. Please accept that when you start this conversion, you cannot change the printer back to stock. By using this project, you agree to take full responsibility for any damage or injury that may occur.
+
+## Skill Level
+This project is not for beginners. You should have a good understanding of 3D printing, and be comfortable with modifying and assembling a 3D printer (including drilling, cutting and tapping metal, soldering, etc.). You should also be comfortable with flashing firmware, and configuring it.
+
 
 # ⚠️ Development Branch Notice
 
@@ -14,7 +22,8 @@ This branch is under active development and contains volatile, experimental chan
 This is a project to convert a Creality Ender 3 into a CoreXY printer. The goal is to make a good, fast printer from a cheap, slow printer.
 - [Contributing](#contributing)
 - [TODO's and notes](#todos-and-notes)
-
+- [Klipper](#klipper)
+- [Marlin](#marlin firmware)
 # Goals
 - Make a good printer from a cheap printer
 - Keep part cost under $50usd for the conversion
@@ -52,7 +61,7 @@ I went with an Afterburner Bowden setup. The files in here allow you to use the 
 ### Filament Feed
 Bowden feed is not the greatest, and is a limiting factor as far as print quality and speed are concerned. The upside of running the Bowden is it greatly decreases the mass fo the gantry. If using the stock motors, this is important! Direct drive would be much better, but wouldn't be worth it without A/B motor upgrades. 
 
-## Firmware
+## Marlin Firmware
 
 In the firmware directory, you will find two .bin files.One for the stm32 and one for the gd32f. These reflect the configurations found in the marlin configuration files directory. These will only work for:
 - Ender3 4.2.2 mainboard with A4988 drivers and stm32 processor
@@ -61,6 +70,9 @@ In the firmware directory, you will find two .bin files.One for the stm32 and on
 ### If your board does not match, THE FIRMWARE WILL NOT WORK FOR YOU!
  You need to identify your board and stepper drivers, adjust the configuration files for your build, and build a marlin image. The configuration files needed for marlin 2.x bugfix are in the Marlin_files directory. See [Marlin](https://github.com/MarlinFirmware/Marlin) for more information on how to build your own firmware.
 
+
+# Klipper
+For around $22usd, you can get a raspberry pi zero 2W, and run mainsail with klipper! The Klipper directory has the printer.cfg file for the EnderXY, based on the 4.2.2 mainboard. See [Klipper](https://github.com/Klipper3d/klipper/tree/master) for more info and setup instructions.
 
 # Contributing
 I would love to see this project grow, and I would love to see what others can do with it. If you have any ideas, improvements, or requests, please feel free to open an issue, or, fork the project and make a pull request.
