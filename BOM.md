@@ -1,6 +1,6 @@
 # ⚠️ This is not complete or correct, disregard until this warning message is gone
 
-# Components needed to build the EnderXY
+# Extra Components needed to build the EnderXY
 
         1 Ender-3 printer
 
@@ -18,6 +18,10 @@
 
         5 meter roll GT2 Timing belt
 
+        250mm mgn12 linear rail (for x axis)
+        
+        mgn12 linear rail carriage
+
 ## Electrical
 
         1 24V 5015 Blower fan (GDSTIME or SUNON recommended, some cheap fans barely move any air)
@@ -28,14 +32,18 @@
 
 ## Fasteners
 
-        32 M5x10 BHCS
+        60 M5x10 BHCS
 
-        4 M5x15 BHCS
+        60 M5 t-nuts
+        
+        60 M5 washers
+        
+        4 M5x16 BHCS
 
-        For extrusion with 6mm hole:
+        For extrusion with 6mm bolt hole:
                 2 M6x20 BHCS 
 
-        For extrusions with 5mm hole:
+        For extrusions with 5mm bolt hole:
                 2 M5x20 BHCS 
 
         2 M5x20 BHCS
@@ -44,9 +52,6 @@
 
         10 M5 nuts
 
-        24 M5 washers
-
-        38 M5 t-nuts
 
         8  M4 nuts
 
