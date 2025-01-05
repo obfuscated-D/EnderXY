@@ -38,7 +38,7 @@ This is a pretty fun build, and in the end you have a good, capable printer. How
 keep in mind that this is made entirely from a *very cheap printer*. The main advantage is the CoreXY kinematics, which allows for faster print speeds, and less ghosting. It only gets better from there, with the addition of linear rails, a better extruder, and a better hotend, klipper, etc. you can expect to print at a much higher quality, and much, much faster than the stock Ender 3.
 
 ## Print specs
-So far, on the bone stock conversion, I can reliably print very good quality at 6k acceleration, and around 140mm/s with a .12 layer height. The mk8 extruder really maxes out around 11mm/s^3, so if you want to print at a .2 layer height, you can safely go to about 120mm/s. For superb quality, 3k acceleration at .16 layer height,  120mm/s yields excellent results, way better than the stock printer.
+So far, on the bone stock conversion, I can reliably print very good quality at 10k acceleration, and around 130mm/s with a .2 layer height. The mk8 extruder really maxes out around 12mm/s^3.
 
 ## Specs
 Build volume (X,Y,Z):
