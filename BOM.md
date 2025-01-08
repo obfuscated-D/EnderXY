@@ -14,7 +14,10 @@
 
         20 F695-2RS Flanged Ball Bearing 5x13x4mm
         
-        2 20 Tooth GT2 Idler Pulley, 5mm Bore, 10mm Width
+        2 20 Tooth GT2 Idler Pulley, 5mm Bore, 10mm Width (4 if using the belt system)
+
+        If using aftermarket motors:
+                2 20 Tooth GT2 Pulley, 5mm Bore, 10mm Width (4 if using the belt system)
 
         5 meter roll GT2 Timing belt
 
