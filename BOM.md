@@ -1,5 +1,5 @@
 # ⚠️ This is not complete or correct, disregard until this warning message is gone
-
+# The bolt counts are approximate, and you may end up with extras
 # Extra Components needed to build the EnderXY
 
         1 Ender-3 printer
@@ -38,13 +38,13 @@
 
 ## Fasteners
 
-        60 M5x10 BHCS
+        75 M5x10 BHCS
 
-        60 M5 t-nuts
+        75 M5 t-nuts
         
         60 M5 washers
         
-        4 M5x16 BHCS
+        6 M5x16 BHCS
 
         For extrusion with 6mm bolt hole:
                 2 M6x20 BHCS 
@@ -52,20 +52,25 @@
         For extrusions with 5mm bolt hole:
                 2 M5x20 BHCS 
 
-        2 M5x20 BHCS
+        12 M5x12 BHCS
 
-        10 M5x40 SHCS
+        6 M5x20 BHCS
 
-        10 M5 nuts
+        15 M5x40 SHCS
 
+        20 M5 nuts
 
         8  M4 nuts
 
-        6 M3x25 BHCS
+        10 M3x12 BHCS
+
+        8 M3x25 BHCS
+
+        6 M3x30 SHCS
 
         8 M3x40 BHCS
 
-        8 M3 nuts
+        16 M3 nuts
 
         M3x4 heat set inserts (~25)
 # Misc
