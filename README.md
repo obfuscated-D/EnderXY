@@ -48,7 +48,7 @@ Linear rail x, V-wheel Y         |     Linear rail x and y
  200,185,200          |     200,200,200
 
 ## Cost
-This will vary wildly with person and location. It's reasonable to assume you can get all the necessary parts for the basic stock conversion (not including the printer), for about $50usd. You'll use a good bit of filament as well.
+This will vary wildly with person and location. It's reasonable to assume you can get all the necessary parts for the basic stock conversion (not including the printer), for about $60usd. You'll use a good bit of filament as well.
 
 
 ### The Design
@@ -56,7 +56,7 @@ The gantry is an adaptation of a [Voron Trident](https://www.vorondesign.com/vor
 
 
 ### The Tool Head
-I went with an Afterburner Bowden setup. The files in here allow you to use the stock ender3 hotend in the afterburner, with a 5015 cooling fan. The 5015 fan upgrade is a must for printing PLA fast. The files for the 5015 fan mod are from [Greg191134](https://github.com/Greg191134/Voron/tree/master/Afterburner%20Optimisation/5015%20fan%20mod).
+I went with an Afterburner Bowden setup. You can use the afterburner, stealthburner, or dragon burner. The files in here allow you to use the stock ender3 hotend in the afterburner, with a 5015 cooling fan. The 5015 fan upgrade is a must for printing PLA fast. The files for the 5015 fan mod are from [Greg191134](https://github.com/Greg191134/Voron/tree/master/Afterburner%20Optimisation/5015%20fan%20mod).
 
 ### Filament Feed
 Bowden feed is not the greatest, and is a limiting factor as far as print quality and speed are concerned. The upside of running the Bowden is it greatly decreases the mass fo the gantry. If using the stock motors, this is important! Direct drive would be much better, but wouldn't be worth it without A/B motor upgrades. 
