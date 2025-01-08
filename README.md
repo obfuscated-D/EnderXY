@@ -42,7 +42,7 @@ This is a pretty fun build, and in the end you have a good, capable printer. How
 keep in mind that this is made entirely from a *very cheap printer*. The main advantage is the CoreXY kinematics, which allows for faster print speeds, and less ghosting. It only gets better from there, with the addition of linear rails, a better extruder, and a better hotend, klipper, etc. you can expect to print at a much higher quality, and much, much faster than the stock Ender 3.
 
 ## Print specs
-So far, on the bone stock conversion, I can reliably print very good quality at 10k acceleration, and around 130mm/s with a .2 layer height. The mk8 extruder really maxes out around 12mm/s^3.
+So far, on the bone stock conversion, I can reliably print very good quality at 10k acceleration, and around 120mm/s with a .2 layer height. The mk8 extruder really maxes out around 10mm/s^3.
 
 ## Specs
 Build volume (X,Y,Z):
@@ -69,7 +69,7 @@ Bowden feed is not the greatest, and is a limiting factor as far as print qualit
 
 In the firmware directory, you will find two .bin files.One for the stm32 and one for the gd32f. These reflect the configurations found in the marlin configuration files directory. These will only work for:
 - Ender3 4.2.2 mainboard with A4988 drivers and stm32 processor
-- Ender3 4.2.2 mainboard with A4999 drivers and gd32f processor
+- Ender3 4.2.2 mainboard with A4988 drivers and gd32f processor
 
 ### If your board does not match, THE FIRMWARE WILL NOT WORK FOR YOU!
  You need to identify your board and stepper drivers, adjust the configuration files for your build, and build a marlin image. The configuration files needed for marlin 2.x bugfix are in the Marlin_files directory. See [Marlin](https://github.com/MarlinFirmware/Marlin) for more information on how to build your own firmware.
