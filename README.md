@@ -3,6 +3,10 @@
 <p align="center">
 <img alt="enderxy_logo" src="./media/readme_images/enderxy_logo.jpg"></img>
 </p>
+<p align="center">
+<img alt="enderxy" src="./media/EnderXY v37.png"></img>
+</p>
+
 
 ## Please Read Everything Below Before Contributing, Commenting, or Opening Issues, Thank You!
 ### This isn't a finished product / refined design. This was a *very* quick concept build and could absolutely use improvement. I hope it can serve as a decent starting point.
@@ -23,7 +27,7 @@ This is a project to convert a Creality Ender 3 into a CoreXY printer. The goal 
 - [Contributing](#contributing)
 - [TODO's and notes](#todos-and-notes)
 - [Klipper](#klipper)
-- [Marlin](#marlin firmware)
+- [Marlin](#marlin)
 # Goals
 - Make a good printer from a cheap printer
 - Keep part cost under $50usd for the conversion
