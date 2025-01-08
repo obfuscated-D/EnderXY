@@ -22,6 +22,12 @@
         
         mgn12 linear rail carriage
 
+## For Belt System Build
+
+        2 20 tooth GT2 Idler pulleys (5mm bore, 10mm width)
+        2 20 tooth GT2 pulleys (5mm bore, 10mm width)
+        300mm 5mm shaft
+
 ## Electrical
 
         1 24V 5015 Blower fan (GDSTIME or SUNON recommended, some cheap fans barely move any air)
