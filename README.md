@@ -1,8 +1,7 @@
+# Ender3XY Conversion
 
+# NOTE: I will be adding more information and resources as I go.All the files and designs are here but assembly instructions are not finished. Unfortunately I don't have as much free time as I did when I started this project.
 
-<p align="center">
-<img alt="enderxy_logo" src="./media/readme_images/enderxy_logo.jpg"></img>
-</p>
 <p align="center">
 <img alt="enderxy" src="./media/EnderXY v37.png"></img>
 </p>
@@ -11,6 +10,8 @@
 ## Please Read Everything Below Before Contributing, Commenting, or Opening Issues, Thank You!
 ### This isn't a finished product / refined design. This was a *very* quick concept build and could absolutely use improvement. I hope it can serve as a decent starting point.
 
+
+
 # Disclaimer
 This project is not affiliated with Creality, Voron Design, Marlin, Mainsail, Klipper, or any other company or project. This is a personal project, and is not intended to be sold or distributed for profit. This project is provided as-is, and I am not responsible for any damage to your printer, or any other equipment. Please accept that when you start this conversion, you cannot change the printer back to stock. By using this project, you agree to take full responsibility for any damage or injury that may occur.
 
@@ -18,11 +19,7 @@ This project is not affiliated with Creality, Voron Design, Marlin, Mainsail, Kl
 This project is not for beginners. You should have a good understanding of 3D printing, and be comfortable with modifying and assembling a 3D printer (including drilling, cutting and tapping metal, soldering, etc.). You should also be comfortable with flashing firmware, and configuring it.
 
 
-# ⚠️ Development Branch Notice
-
-This branch is under active development and contains volatile, experimental changes. Components and designs are frequently updated and may not be synchronized with each other. Specifications, dimensions, firmware, and documentation should be considered unstable and subject to change. For verified, stable content, please refer to the main branch when it is published.
-
-# Ender XY
+# Ender3XY
 This is a project to convert a Creality Ender 3 into a CoreXY printer. The goal is to make a good, fast printer from a cheap, slow printer.
 - [Contributing](#contributing)
 - [TODO's and notes](#todos-and-notes)
@@ -37,9 +34,6 @@ This is a project to convert a Creality Ender 3 into a CoreXY printer. The goal 
 - Make it easily assembled
 - Make it easily sourced
 
-# What to expect
-This is a pretty fun build, and in the end you have a good, capable printer. However, 
-keep in mind that this is made entirely from a *very cheap printer*. The main advantage is the CoreXY kinematics, which allows for faster print speeds, and less ghosting. It only gets better from there, with the addition of linear rails, a better extruder, and a better hotend, klipper, etc. you can expect to print at a much higher quality, and much, much faster than the stock Ender 3.
 
 ## Print specs
 So far, on the bone stock conversion, I can reliably print very good quality at 10k acceleration, and around 120mm/s with a .2 layer height. The mk8 extruder really maxes out around 10mm/s^3.
@@ -47,9 +41,7 @@ So far, on the bone stock conversion, I can reliably print very good quality at 
 ## Specs
 Build volume (X,Y,Z):
 
-Linear rail x, V-wheel Y         |     Linear rail x and y
-----------------------|-----
- 200,185,200          |     200,200,200
+ 200,185,200           
 
 ## Cost
 This will vary wildly with person and location. It's reasonable to assume you can get all the necessary parts for the basic stock conversion (not including the printer), for about $60usd. You'll use a good bit of filament as well.
@@ -66,8 +58,8 @@ I went with an Afterburner Bowden setup. You can use the afterburner, stealthbur
 Bowden feed is not the greatest, and is a limiting factor as far as print quality and speed are concerned. The upside of running the Bowden is it greatly decreases the mass fo the gantry. If using the stock motors, this is important! Direct drive would be much better, but wouldn't be worth it without A/B motor upgrades. 
 
 ## Marlin Firmware
-
-In the firmware directory, you will find two .bin files.One for the stm32 and one for the gd32f. These reflect the configurations found in the marlin configuration files directory. These will only work for:
+YOU MAY NEED TO ADJUST SOME OF THE CONFIGURATION !!
+In the firmware directory, you will find two .bin files.One for the stm32 and one for the gd32f.  These reflect the configurations found in the marlin configuration files directory. These will only work for:
 - Ender3 4.2.2 mainboard with A4988 drivers and stm32 processor
 - Ender3 4.2.2 mainboard with A4988 drivers and gd32f processor
 
@@ -87,10 +79,7 @@ I would love to see this project grow, and I would love to see what others can d
 ### If you have a request, please consider the goals of the project, and the limitations of the stock parts.
 
 ## TODO's and notes
-    - BOM needs completed, and to include different configurations
     - optmize part designs for printing without support
-    - Ndesigns for linear rail Z axis
-    - designs for three Z motors and leadscrews
 
 # Sources and mentions
 The only reason this project was possible, and frankly, why I was able to create the first concept so quickly, is because of awesome open source projects! I don't want anyone to think that I did something amazing here, I simply adapted what I could from others, and made a few parts that weren't out there yet.
